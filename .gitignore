@@ -1,0 +1,15 @@
+/.metadata/
+/.recommenders/
+/RemoteSystemsTempFiles/
+target/
+bin/
+obj/
+.vs/
+rebel.xml
+.project
+.checkstyle
+.classpath
+.settings
+/Servers
+~*
+.vscode
