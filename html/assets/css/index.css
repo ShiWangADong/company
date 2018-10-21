@@ -97,7 +97,7 @@ body {
     padding-bottom: 1rem;
 }
 
-.body-title a {
+.body-title {
     font-weight: bold;
     color: #184faa;
 }
@@ -109,6 +109,17 @@ body {
 
 .body-top {
     display: flex;
+    padding-bottom: 1rem;
+}
+
+.body-more{
+    text-align: right;
+}
+
+.body-more a{
+    font-size: 0.7rem;
+    padding-right:1rem; 
+    color: #184faa;
 }
 
 .body-left {
