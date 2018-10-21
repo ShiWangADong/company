@@ -1,0 +1,173 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    font-size: 20px;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 0.8rem;
+    background: #fff;
+    color: #848484;
+    font-weight: 300;
+    overflow: auto;
+    min-width: 60rem;
+}
+
+.container {
+    width: 60rem;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 1rem 0;
+    position: fixed;
+    height: 3rem;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    background: white;
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
+    -ms-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
+    -o-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
+}
+
+.header .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .container img {
+    height: 100%;
+}
+
+.header .container ul {
+    display: flex;
+}
+
+.header .container li {
+    padding: 0 0.5rem;
+}
+
+.header .container li a {
+    color: #848484;
+}
+
+.header .container li:hover a,
+.header .container li.active a {
+    color: red;
+}
+
+.body {
+    padding-top: 5rem;
+}
+
+.body-main {
+    padding: 2rem 0;
+}
+
+.body-main p {
+    margin: 0 0 0.5rem;
+    text-indent: 1.6rem;
+}
+
+.body-title {
+    padding-bottom: 1rem;
+}
+
+.body-title a {
+    font-weight: bold;
+    color: #184faa;
+}
+
+.body-title span {
+    color: #f30;
+    padding-left: 0.5rem;
+}
+
+.body-top {
+    display: flex;
+}
+
+.body-left {
+    width: 70%;
+    padding-right: 2rem;
+}
+
+.body-right {
+    width: 30%;
+}
+
+.body-top .swiper-container img {
+    width: 100%;
+}
+
+.body-bottom .swiper-container img {
+    width: 100%;
+}
+
+.footer {
+    background: #414141;
+    padding: 1.5rem 0;
+    text-align: center;
+    color: white;
+    font-size: 0.7rem;
+}
+
+
+.about-main{
+    width: 50rem;
+}
+
+.about-main p{
+    margin: 0.5rem 0;
+}
+
+.about-title{
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-chapter{}
+
+.about-info{}
+
+.about-img{
+    text-align: center;
+    text-indent: 0 !important;
+}
+
+.about-img img{
+    height: 20rem;
+    width: 24rem;
+}
+
+.about-img-desc{
+    color: silver;
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top:-0.5rem !important; 
+}
